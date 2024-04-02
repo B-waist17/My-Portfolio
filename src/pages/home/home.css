@@ -1,0 +1,22 @@
+.caseStudies {
+    padding: 2rem 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .caseStudies {
+        padding: 2rem 3rem;
+    }
+    
+}
+@media screen and (max-width: 550px) {
+    .caseStudies {
+        padding: 2rem 1rem;
+    }
+    
+}

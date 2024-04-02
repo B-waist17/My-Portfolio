@@ -1,0 +1,11 @@
+.heroMain {
+    background-color: #04151F;
+    height: 727px;
+}
+
+@media screen and (max-width: 550px) {
+    .heroMain {
+        height: 550px;
+    }
+    
+}

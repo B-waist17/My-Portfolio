@@ -1,0 +1,130 @@
+.headerMain {
+    background-color: #04151F;
+    padding: 2rem 6rem;
+}
+
+.headerContent {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+}
+
+.headerContentLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+
+}
+
+.headerContentLeft p {
+    color: #CECECE;
+    font-weight: 300;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+
+}
+
+.headerContentLeft img {
+    width: 54px;
+    height: 64px;
+}
+
+.headerContentLeft .role {
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    font-style: bold;
+    font-weight: 900;
+    line-height: normal;
+    color: white;
+}
+
+.headerContentLeft .roleDes {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #8C8B8B;
+}
+
+.headerContentLeft button {
+    border-radius: 33px;
+    border: 1px solid #DC8A10;
+    display: flex;
+    width: 269px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    color: #DC8A10;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.headerContentLeft button:hover {
+    cursor: pointer;
+    background-color: #DC8A10;
+    color: #FFF;
+}
+
+.headerButtons {
+    display: flex;
+    gap: 20px;
+}
+
+.headerButtons .bt2 {
+    border: 1px solid #CECECE;
+    color: #CECECE;
+}
+
+.headerContentRight img {
+    width: 552px;
+    height: 552px;
+    transform: rotate(-9.402deg);
+}
+
+
+@media screen and (max-width: 550px) {
+    .headerMain {
+        padding: 1rem 1rem;
+    }
+    .headerContentLeft {
+        align-items: center;
+        gap: 24px;
+    }
+    .headerContentLeft p {
+        font-size: 32px;
+    }
+    .headerContentLeft .role {
+        font-size: 24px;
+    }
+    .headerContentLeft .roleDes {
+        font-size: 16px;
+    }
+    .headerContentLeft button {
+        padding: 12px 11px;
+        font-size: 16px;
+    }
+    .headerButtons {
+        flex-direction: column;
+    }
+    .headerContentLeft img {
+        width: 20.758px;
+        height: 24px;
+    }
+    .headerContent {
+        justify-content: center;
+    }
+    .headerContentRight {
+        display: none;
+    }
+}

@@ -1,0 +1,122 @@
+.aboutHeader {
+    height: 350px;
+    background: #04151F;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerText {
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: center;
+}
+.headerText h1 {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 200.4%;
+}
+
+.aboutBody {
+    padding: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bodyText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+.bodyText h1 {
+    color: #04151F;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.bodyText p {
+    text-align: center;
+    color: #04151F;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.bodyButtons button {
+    border-radius: 33px;
+    border: 1px solid #DC8A10;
+    display: flex;
+    width: 269px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    color: #DC8A10;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bodyButtons {
+    display: flex;
+    gap: 20px;
+}
+
+.bodyButtons .bt2 {
+    border: 1px solid #a6a5a5;
+    color: #a6a5a5;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .aboutBody {
+        padding: 2rem 3rem;
+    }
+    
+}
+@media screen and (max-width: 550px) {
+    .aboutBody {
+        padding: 2rem 1rem;
+    }
+    .aboutHeader {
+        height: 200px;
+    }
+    .headerText {
+        padding: 1rem 1rem;
+    }
+    .headerText h1 {
+        font-size: 32px;
+    }
+    .bodyText {
+        width: 100%;
+    }
+    .bodyText h1 {
+        font-size: 24px;
+    }
+
+    .bodyText p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .bodyButtons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .bodyButtons button {
+        padding: 12px 11px;
+        font-size: 16px;
+    }
+    
+    
+}

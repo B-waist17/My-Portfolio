@@ -1,0 +1,93 @@
+.talkMain {
+    padding: 2rem 6rem;
+    display: flex;
+}
+
+.talkContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.talkImage {
+    width: 438px;
+    height: 99px;
+    border-radius: 72.286px;
+    background: #F5F5F5;
+
+    box-shadow: 10px 10px 20px 0px rgba(98, 98, 98, 0.39) inset, 10px 10px 20px 0px rgba(255, 255, 255, 0.46) inset;
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 745px
+
+}
+
+.socialIcon {
+    width: 133px;
+    height: 133px;
+    border-radius: 34px;
+    background: #EDEDED;
+
+    box-shadow: 10px 10px 20px 0px rgba(143, 143, 143, 0.50), -10px -10px 20px 0px #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialIcon :hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .talkMain {
+        padding: 2rem 3rem;
+    }
+    .talkImage {
+        width: 370px;
+        height: 70px;
+    }
+    .socialIcon {
+        width: 100px;
+        height: 100px;
+    }
+    .socials {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .talkMain {
+        padding: 1rem 1rem;
+        justify-content: center;
+
+    }
+    .talkContent {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .talkImage {
+        width: 300px;
+        height: 50px;
+    }
+    .talkImage img {
+        width: 124px;
+    
+    }
+    .socials {
+        width: 100%;
+
+    }
+    .socialIcon {
+        width: 100%;
+        width: 64px;
+        height: 64px;
+    }
+}

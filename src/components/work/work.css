@@ -1,0 +1,42 @@
+.workMain {
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: right;
+}
+.workContent {
+    width: 310px;
+    height: 99px;
+    border-radius: 72.286px;
+    background: #F5F5F5;
+
+    box-shadow: 10px 10px 20px 0px rgba(98, 98, 98, 0.39) inset, 10px 10px 20px 0px rgba(255, 255, 255, 0.46) inset;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .workMain {
+        padding: 2rem 3rem;
+    }
+    .workContent {
+        width: 100%;
+        width: 310px;
+        height: 70px;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .workMain {
+        padding: 1rem 1rem;
+        justify-content: center;
+    }
+    .workContent {
+        width: 100%;
+        width: 250px;
+        height: 50px;
+    }
+    
+}

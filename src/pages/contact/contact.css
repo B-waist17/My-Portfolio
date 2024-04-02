@@ -1,0 +1,170 @@
+.contactHeader {
+    height: 350px;
+    background: #04151F;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactBody {
+    padding: 4rem 6rem;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+
+.formInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.formInfo h2 {
+    color: #ED9E28;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200.4%;
+}
+
+.formInfo p {
+    color: #04151F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.contactForm form {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.contactForm input {
+    width: 383px;
+    height: 50px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    padding: 0 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.contactForm textarea {
+    width: 383px;
+    height: 100px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    padding: 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.contactForm button {
+    width: 383px;
+    height: 50px;
+    background: #ED9E28;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+label {
+    color: #04151F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.infoCard {
+    width: 449px;
+    height: 449px;
+    padding: 32px;
+    border-radius: 8px;
+    background: #04151F;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoCard h2 {
+    color: #ED9E28;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200.4%;
+}
+.info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .contactBody {
+        padding: 4rem 3rem;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .contactBody {
+        padding: 2rem 1rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .contactHeader {
+        height: 200px;
+    }
+    .contactInfo {
+        flex-direction: column;
+    }
+    .infoCard {
+        width: 100%;
+        height: 300px;
+    }
+    .infoCard h2 {
+        font-size: 24px;
+    }
+    .info {
+        font-size: 16px;
+    }
+    .formInfo h2 {
+        font-size: 24px;
+    }
+}
