@@ -21,3 +21,35 @@ a:hover {
 }
 
 
+.navigationMain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navClicks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    padding: 2rem 6rem;
+}
+.next, .prev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    background: #04151F;
+    border-radius: 72.286px;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f5f5f5;
+    cursor: pointer;
+}

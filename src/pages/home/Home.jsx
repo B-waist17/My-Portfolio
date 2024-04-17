@@ -21,10 +21,10 @@ const Home = () => {
         <a href=""><WorkCard title="EduCard"
         description="Eduard is a student-focused fintech solution for seamless payments."
         number="02" photo={eduImg}/> </a>
-        <a href=""><WorkCard title="Spendy"
+        <a href="/spendy"><WorkCard title="Spendy"
         description="Spendy is an expense tracking app built to help people manage their expenses and plan."
         number="03" photo={spendyImg}/></a>
-        <a href=""><WorkCard title="Reporta"
+        <a href="/reporta"><WorkCard title="Reporta"
         description="Reporta is a mobile app that allows users to report incidents."
         number="04" photo={reportaImg}/></a>
       </div>

@@ -1,6 +1,8 @@
 .heroMain {
     background-color: #04151F;
     height: 727px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 550px) {

@@ -1,6 +1,7 @@
 .talkMain {
     padding: 2rem 6rem;
     display: flex;
+    justify-content: center;
 }
 
 .talkContent {
@@ -8,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1500px;
 }
 
 .talkImage {

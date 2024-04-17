@@ -15,7 +15,7 @@ const Header = () => {
             <p className='roleDes'>UI/UX Design | UI Development</p>
             <div className='headerButtons'>
                 <button>Contact Me</button>
-                <button className='bt2'>Resume</button>
+                <button className='bt2'>Resume </button>
             </div>
         </div>
         <div className='headerContentRight'>

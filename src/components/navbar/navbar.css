@@ -4,6 +4,8 @@
     align-items: center;
     padding: 2rem 6rem;
     max-width: 1500px;
+    width: 100%;
+    align-self: center;
 }
 
 .navContent {
