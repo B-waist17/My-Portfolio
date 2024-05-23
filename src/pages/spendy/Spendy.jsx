@@ -2,6 +2,7 @@ import React from 'react'
 import './spendy.css'
 import spendycs from '../../assets/Spendy CS.png'
 import Navbar from '../../components/navbar/Navbar'
+import { Link } from 'react-router-dom'
 
 const Spendy = () => {
   return (
@@ -10,8 +11,8 @@ const Spendy = () => {
       <div className='csImage'><img src={spendycs} alt="" /></div>
       <div className='navigationMain'>
         <div className='navClicks'>
-          <a href=""><div className='prev'><p>Previous Project</p></div></a>
-          <a href=""></a>
+          <Link href=""><div className='prev'><p>Previous Project</p></div></Link>
+          <Link href=""></Link>
         </div>
      </div>
     

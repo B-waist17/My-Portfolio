@@ -2,6 +2,7 @@ import React from 'react'
 import './reporta.css'
 import reportaCs from '../../assets/Reporta Casestudy.jpg'
 import Navbar from '../../components/navbar/Navbar'
+import { Link } from 'react-router-dom'
 
 const Reporta = () => {
   return (
@@ -10,8 +11,8 @@ const Reporta = () => {
       <div className='csImage'><img src={reportaCs} alt="" /></div>
       <div className='navigationMain'>
         <div className='navClicks'>
-          <a href=""><div className='prev'><p>Previous Project</p></div></a>
-          <a href=""><div className='next'><p>Next Project</p></div></a>
+          <Link to=""><div className='prev'><p>Previous Project</p></div></Link>
+          <Link to=""><div className='next'><p>Next Project</p></div></Link>
         </div>
      </div>
       

@@ -3,12 +3,13 @@ import './navbar.css'
 import logo from '../../assets/My Logo 1.png'
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Menu = () => (
   <>
-  <p><a href="about">About</a></p>
-  <p><a href="/">Case Studies</a></p>
-  <p><a href="contact">Contact</a></p>
+  <p><Link href="about">About</Link></p>
+  <p><Link href="/">Case Studies</Link></p>
+  <p><Link href="contact">Contact</Link></p>
   </>
 )
   
@@ -19,7 +20,7 @@ const Navbar = () => {
   return (
     <div className='navMain'>
       <div className='navContent'>
-        <a href="/"><img src={logo} alt="" /></a>
+        <Link href="/"><img src={logo} alt="" /></Link>
         <div className='navContentLinks'>
           <Menu />
         </div>
