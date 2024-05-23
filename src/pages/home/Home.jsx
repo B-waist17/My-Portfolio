@@ -15,10 +15,10 @@ const Home = () => {
       <Hero />
       <Work />
       <div className='caseStudies' id='work'>
-        <a href=""><WorkCard title="LinX" 
+        <a href="#"><WorkCard title="LinX" 
         description="LinX is a platform made for businesses to  manage all business processes on a single platform."
         number="01" photo={linxImg}/></a>
-        <a href=""><WorkCard title="EduCard"
+        <a href="#"><WorkCard title="EduCard"
         description="Eduard is a student-focused fintech solution for seamless payments."
         number="02" photo={eduImg}/> </a>
         <a href="/spendy"><WorkCard title="Spendy"
