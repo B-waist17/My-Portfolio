@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./home.css";
 import Hero from "../../components/hero/Hero";
 import Work from "../../components/work/Work";
@@ -8,14 +8,24 @@ import linxImg from "../../assets/linx_Image.png";
 import eduImg from "../../assets/educard_Image.png";
 import spendyImg from "../../assets/spendy_Image.png";
 import reportaImg from "../../assets/reporta_Image.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Home = () => {
+  const workRef = useRef(null)
+  const location = useLocation()
+
+  // read up on lifecycle hooks in react
+  useEffect(() => {
+    if (location.hash.includes('#work')) {
+      workRef?.current?.scrollIntoView()
+    }
+  },[workRef, location.hash])
+
   return (
     <div>
       <Hero />
       <Work />
-      <div className="caseStudies" id="work">
+      <div className="caseStudies" id="work" ref={workRef}>
         <Link to='/'>
           <WorkCard
             title="LinX"

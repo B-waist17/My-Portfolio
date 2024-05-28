@@ -2,7 +2,9 @@ import React from 'react'
 import './header.css'
 import LogoR from '../../assets/My logo R.png'
 import LogoOutline from '../../assets/My logo (outline).png'
+import { useNavigate } from 'react-router-dom'
 const Header = () => {
+  const navigate = useNavigate()
   return (
     <div className='headerMain'>
       <div className='headerContent'>
@@ -14,7 +16,7 @@ const Header = () => {
             <p className='role'>PRODUCT DESIGNER</p>
             <p className='roleDes'>UI/UX Design | UI Development</p>
             <div className='headerButtons'>
-                <button>Contact Me</button>
+                <button onClick={() => navigate('/contact')}>Contact Me</button>
                 <button className='bt2'>Resume </button>
             </div>
         </div>

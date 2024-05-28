@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom'
 
 const Menu = () => (
   <>
-  <p><Link href="about">About</Link></p>
-  <p><Link href="/">Case Studies</Link></p>
-  <p><Link href="contact">Contact</Link></p>
+  <p><Link to="/about">About</Link></p>
+  <p><Link to="/#work">Case Studies</Link></p>
+  <p><Link to="/contact">Contact</Link></p>
   </>
 )
   
@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className='navMain'>
       <div className='navContent'>
-        <Link href="/"><img src={logo} alt="" /></Link>
+        <Link to="/"><img src={logo} alt="" /></Link>
         <div className='navContentLinks'>
           <Menu />
         </div>
