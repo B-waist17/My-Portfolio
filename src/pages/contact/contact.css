@@ -82,6 +82,10 @@
     color: #FFFFFF;
 }
 
+.contactForm button:hover {
+    cursor: pointer;
+}
+
 .inputs {
     display: flex;
     flex-direction: column;

@@ -67,6 +67,11 @@
     font-weight: 400;
     line-height: normal;
 }
+.bodyButtons button:hover {
+    cursor: pointer;
+    background: #DC8A10;
+    color: #FFF;
+}
 
 .bodyButtons {
     display: flex;

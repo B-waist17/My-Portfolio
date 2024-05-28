@@ -15,11 +15,11 @@ const Talk = () => {
       <div className='talkContent'>
         <div className='talkImage'><img src={TalkImg} alt="Let's talk" /></div>
         <div className='socials'>
-          <div className='socialIcon'><img src={Linkedin} alt="linkedin" /></div>
-          <div className='socialIcon'><img src={Behance} alt="behance" /></div>
-          <div className='socialIcon'><img src={Github} alt="github" /></div>
-          <div className='socialIcon'><img src={Twitter} alt="twitter" /></div>
-          <div className='socialIcon'><img src={Instagram} alt="instagram" /></div>
+          <div className='socialIcon'><img src={Linkedin} alt="linkedin" onClick={() => window.open('https://www.linkedin.com/in/ovakporanye-udi-eghere-a0a145143/')}/></div>
+          <div className='socialIcon'><img src={Behance} alt="behance" onClick={() => window.open('https://www.behance.net/ranye92')}/></div>
+          <div className='socialIcon'><img src={Github} alt="github" onClick={() => window.open('https://github.com/B-waist17')} /></div>
+          <div className='socialIcon'><img src={Twitter} alt="twitter" onClick={() => window.open('https://x.com/b_waist17')}/></div>
+          <div className='socialIcon'><img src={Instagram} alt="instagram" onClick={() => window.open('https://www.instagram.com/paulranye/')}/></div>
         </div>
       </div>
     </div>

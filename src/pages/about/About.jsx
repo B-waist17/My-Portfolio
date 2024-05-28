@@ -2,8 +2,11 @@ import React from 'react'
 import './about.css' 
 import Navbar from '../../components/navbar/Navbar'
 import Talk from '../../components/letsTalk/Talk'
+import { useNavigate } from 'react-router-dom'
 
 const About = () => {
+const navigate = useNavigate()
+
   return (
     <div className='aboutMain'>
       <div className='aboutHeader'>
@@ -36,7 +39,7 @@ const About = () => {
             </p>
         </div> <br />
         <div className='bodyButtons'>
-                <button>Contact Me</button>
+                <button onClick={() => navigate('/contact')}>Contact Me</button>
                 <button className='bt2'>Resume</button>
         </div>
       </div>
