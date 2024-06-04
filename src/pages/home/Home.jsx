@@ -34,7 +34,7 @@ const Home = () => {
             photo={linxImg}
           />
         </Link>
-        <Link to="#">
+        <Link to="/educard">
           <WorkCard
             title="EduCard"
             description="Eduard is a student-focused fintech solution for seamless payments."

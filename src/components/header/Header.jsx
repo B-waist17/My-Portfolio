@@ -17,7 +17,7 @@ const Header = () => {
             <p className='roleDes'>UI/UX Design | UI Development</p>
             <div className='headerButtons'>
                 <button onClick={() => navigate('/contact')}>Contact Me</button>
-                <button className='bt2'>Resume </button>
+                <button className='bt2' onClick={() => window.open('https://drive.google.com/file/d/1whnyip5ea-TPJ1eI5VWqylR04hqTXmQC/view?usp=sharing')}>Resume </button>
             </div>
         </div>
         <div className='headerContentRight'>

@@ -11,8 +11,8 @@ const Reporta = () => {
       <div className='csImage'><img src={reportaCs} alt="" /></div>
       <div className='navigationMain'>
         <div className='navClicks'>
-          <Link to=""><div className='prev'><p>Previous Project</p></div></Link>
-          <Link to=""><div className='next'><p>Next Project</p></div></Link>
+          <Link to="/spendy"><div className='prev'><p>Previous Project</p></div></Link>
+          <Link to="/"><div className='next'><p>Next Project</p></div> </Link>  
         </div>
      </div>
       

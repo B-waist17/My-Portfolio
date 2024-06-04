@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom'
 const Spendy = () => {
   return (
     <div className='spendyMain'>
-      <div className='spendyNavbar'><Navbar /></div>
+      <div className='csNavbar'><Navbar /></div>
       <div className='csImage'><img src={spendycs} alt="" /></div>
       <div className='navigationMain'>
         <div className='navClicks'>
-          <Link href=""><div className='prev'><p>Previous Project</p></div></Link>
-          <Link href=""></Link>
+          <Link to="/educard"><div className='prev'><p>Previous Project</p></div></Link>
+          <Link to="/reporta"><div className='next'><p>Next Project</p></div> </Link>
         </div>
      </div>
     
