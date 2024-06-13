@@ -26,7 +26,7 @@ const Home = () => {
       <Hero />
       <Work />
       <div className="caseStudies" id="work" ref={workRef}>
-        <Link to='/'>
+        <Link to='/linx'>
           <WorkCard
             title="LinX"
             description="LinX is a platform made for businesses to  manage all business processes on a single platform."

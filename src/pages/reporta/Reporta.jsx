@@ -12,7 +12,7 @@ const Reporta = () => {
       <div className='navigationMain'>
         <div className='navClicks'>
           <Link to="/spendy"><div className='prev'><p>Previous Project</p></div></Link>
-          <Link to="/"><div className='next'><p>Next Project</p></div> </Link>  
+          <Link to="/linx"><div className='next'><p>Next Project</p></div> </Link>  
         </div>
      </div>
       
