@@ -10,7 +10,7 @@ const EduCard = () => {
       <div className='csNavbar'><Navbar /></div>
         <div className='csImage'><img src={educardcs} alt="" /></div>
         <div className='navClicks'>
-          <Link to="/"><div className='prev'><p>Previous Project</p></div></Link>
+          <Link to="/linx"><div className='prev'><p>Previous Project</p></div></Link>
           <Link to="/spendy"><div className='next'><p>Next Project</p></div> </Link>
         </div>
     </div>
